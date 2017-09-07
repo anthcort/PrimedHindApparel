@@ -1,0 +1,86 @@
+html, body{overflow-x: hidden; height: 100%; margin: 0px; padding: 0px;}
+
+
+
+html{
+	background-color: #B8860B !important;
+	background: #B8860B !important; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #B8860B, #cc6600) !important; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #B8860B, #cc6600) !important; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #B8860B, #cc6600) !important; /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #B8860B, #cc6600) !important; /* Standard syntax */
+}
+
+.heading {
+	margin-left: -2%;
+
+}
+
+h1 {color: black;
+	font-family: "Impact, Charcoal, sans-serif";
+	font-size: 400%;
+	
+}
+a{
+	text-decoration: none;
+
+}
+
+h4 {color: white ;
+	font-size: 120%;
+	width: 100%;
+	margin-left: 1%
+}
+
+.shirts {
+	width: 70%;
+	margin: 0 auto;
+	text-align: justify;
+
+}
+.shirts:after{
+	content: '';
+	width: 100%;
+	display: inline-block;
+
+}
+
+.OOL {
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.OOL img {
+	padding: 3px;
+   	border: 5px solid black;
+}
+
+
+#purchase {
+	
+}
+
+
+#buybtn{
+	margin-left: 5%;
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #58e54b;
+	text-shadow: none;
+	text-decoration: none;
+
+}
+#buybtn a{
+	text-decoration: none;
+}
+button:active{
+	text-decoration: none;
+}
+button:hover{
+	background-color: ;
+	cursor: pointer;
+}
